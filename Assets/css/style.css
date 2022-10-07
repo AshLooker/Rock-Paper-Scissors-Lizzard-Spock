@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    background-image: url(/Assets/images/RPSLS-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.start_btn {
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -70%);
+box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
+            0px 6px 20px 0 rgba(0,0,0,0.19);
+transition: all 0.2s ease;
+}
