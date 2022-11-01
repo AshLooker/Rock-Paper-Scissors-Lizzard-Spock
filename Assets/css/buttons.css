@@ -1,0 +1,28 @@
+.rules-btn {
+  width:120px;
+  height: 40px;
+  color: #fff;
+  background-color: #4CBB17;
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  border-radius: 12px;
+  margin-top: 10px;
+  text-align: center;
+  border-style: outset;
+  cursor: pointer;
+}
+
+.reset-btn {
+  width:120px;
+  height: 40px;
+  color: #fff;
+  background-color: #BB1717;
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  border-radius: 12px;
+  margin-top: 10px;
+  text-align: center;
+  border-style: outset;
+  cursor: pointer;
+}
+
