@@ -12,6 +12,11 @@
   cursor: pointer;
 }
 
+.rules-btn:hover {
+  background-color: #52FF00;
+}
+
+
 .reset-btn {
   width:120px;
   height: 40px;
@@ -26,3 +31,6 @@
   cursor: pointer;
 }
 
+.reset-btn:hover {
+  background-color: #FF0000;
+}
