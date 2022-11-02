@@ -1,6 +1,10 @@
-const start_btn = document.querySelector(".start_btn button"); 
+const modal_overlay = document.querySelector("#modal_overlay")
 
-//if start button is clicked
-start_btn.onclick = () => {
-    rule_box.classList.add("activeRule");
-}
+document.querySelector("#rules-btn").addEventListener("click", () =>{
+    modal_overlay.style.display = "block";
+})
+
+
+document.querySelector("#close-modal-btn").addEventListener("click", () =>{
+    modal_overlay.style.display = "none";
+})
