@@ -9,6 +9,18 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal-header {
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed black;
+}
+
+.modal-header, title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 #modal {
     max-width: 40%;
     height: 40%;
@@ -21,6 +33,8 @@
     right:0;
 }
 
-.website-content {
-    height: 1000vh;
+#modal, p {
+    font-size: 105%;
+    display: block;
 }
+
